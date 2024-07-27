@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    /* margin: 0; */ 
+}
+img{
+    height: 90px;
+    margin-top: 2rem;
+    
+}
+body{
+    background-color: black;
+}
+h1{
+    margin-top: 10px;
+    font-size: 4rem;
+    color: rgb(38, 171, 243);
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(38, 171, 243) ;
+    border-radius: 50px;
+    width: 100%;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: white;
+    box-shadow: 10px 5px #04032c;
+}
+.form-todo{
+    width: 90%;
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.form-todo input{
+    margin-top: 2rem;
+    min-height: 100%;
+    text-align: center;
+}
+.form-todo input[type="text"]{
+ width: 78%;
+ border-radius: 10px;
+}
+.form-todo input[type="submit"]{
+    width: 18%;
+    padding: 0.5rem;
+    background-color:black;
+    color:white;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+.form-todo input[type="submit"]:hover{
+    box-shadow: 3px 3px rgb(104, 104, 106);
+}
+.text{
+    font-size: large;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+ul{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    background-color: rgb(38, 171, 243);
+    color: white;
+    margin: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.Todo-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.Todo-btn{
+    background-color: black;
+    color: white;
+    padding: 0.4rem;
+    font-size: large;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+   }
+.Todo-btn:hover{
+    box-shadow: 3px 3px rgb(167, 172, 175);
+    font-size: larger;
+}

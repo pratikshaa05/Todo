@@ -1,0 +1,24 @@
+
+.form-todo input[type="text"]{
+    width: 70%;
+    border-radius: 10px;
+   }
+.form-todo input[type="submit"]{
+    width: 25%;
+    padding: 0.2rem;
+    background-color:black;
+    color:white;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+li{
+    height: 38px;
+}
+.Todo-btn{
+    height: 25px;
+    padding-bottom: 20px;
+    font-size: small;
+    margin-top: 0px;
+}
